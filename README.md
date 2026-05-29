@@ -115,17 +115,14 @@ Analyzes **victim demographics by descent** in the 3 highest and 3 lowest income
 ## Project Structure
 
 ```
-├── Local/
-│   └── AdvancedDataBase.ipynb       # Full pipeline — runs locally
 ├── AWS/
-│   └── AdvancedDataBaseAWS.ipynb    # Full pipeline — runs on AWS EMR
-├── Data/
-│   ├── Crime_Data_from_2010_to_2019_20241101.csv
-│   ├── LA_Police_Stations.csv
-│   ├── LA_income_2015.csv
-│   ├── RE_codes.csv
-│   └── 2010_Census_Blocks.geojson
-└── README.md
+│   └── AdvancedDataBaseAWS.ipynb       # Full pipeline — runs on AWS EMR
+├── Local/
+│   └── AdvancedDataBase.ipynb          # Full pipeline — runs locally
+├── .gitignore
+├── Project Instructions 2024.pdf       # Original assignment specification
+├── README.md
+└── Report.pdf                          # Final project report
 ```
 
 ---
